@@ -1,9 +1,7 @@
 package uebungen;
 
-public class Solution {
-    public Solution() {}
+import java.util.List;
 
-    public int solve(int[] landscape) {
-        return 42;
-    }
+public interface Solution {
+    public int solve(List<Integer> landscape);
 }

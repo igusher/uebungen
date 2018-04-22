@@ -19,12 +19,12 @@ public class RandomTest {
     private static final int MAX_HEIGHT = 100;
 
     private Solution solution = new StackBasedSolution();
-    private Solution baseSolution = new StrightForwardSolution();
+    private Solution baseSolution = new StraightforwardSolution();
 
     @Test
     public void selfTest() {
-        List<Integer> defaultInput = Arrays.asList(5,2,3,4,5,4,1,3,1);
-        assertEquals(8, baseSolution.solve(defaultInput));
+        List<Integer> landscape = Arrays.asList(5,2,3,4,5,4,1,3,1);
+        assertEquals(8, baseSolution.solve(landscape));
     }
 
     @Test

@@ -7,7 +7,7 @@ import java.util.List;
  * Simple N^2 algorithm to solve the problem
  * Used as a baseline to verify optimized algorithm
  */
-public class StrightForwardSolution implements Solution {
+public class StraightforwardSolution implements Solution {
 
     @Override
     public int solve(List<Integer> landscape) {

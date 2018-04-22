@@ -1,4 +1,4 @@
-package uebungen;
+package rainwater;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;

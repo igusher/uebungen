@@ -1,4 +1,4 @@
-package uebungen;
+package rainwater;
 
 import java.util.List;
 

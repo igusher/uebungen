@@ -1,4 +1,4 @@
-package uebungen;
+package rainwater;
 
 import java.util.AbstractMap;
 import java.util.List;

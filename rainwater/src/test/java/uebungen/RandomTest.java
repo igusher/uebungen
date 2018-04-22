@@ -16,9 +16,9 @@ import java.util.stream.Stream;
  */
 public class RandomTest {
 
-    private static final int TEST_COUNT = 20;
-    private static final int LANDSCAPE_LENGTH = 200;
-    private static final int MAX_HEIGHT = 200;
+    private static final int TEST_COUNT = 1000;
+    private static final int LANDSCAPE_LENGTH = 100;
+    private static final int MAX_HEIGHT = 100;
 
     private Solution solution = new StackBasedSolution();
     private Solution baseSolution = new StrightForwardSolution();

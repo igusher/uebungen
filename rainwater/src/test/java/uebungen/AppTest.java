@@ -59,6 +59,12 @@ public class AppTest
     }
 
     @Test
+    public void basicTest() {
+        List<Integer> defaultInput = Arrays.asList(1, 0, 1);
+        assertEquals(1, solution.solve(defaultInput));
+    }
+
+    @Test
     public void defaultTest() {
         List<Integer> defaultInput = Arrays.asList(5,2,3,4,5,4,1,3,1);
         assertEquals(8, solution.solve(defaultInput));
